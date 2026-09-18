@@ -1,0 +1,20 @@
+competition:
+  name: "AIMO Progress Prize 3"
+  slug: "ai-mathematical-olympiad-progress-prize-3"
+  metric: "competition-defined answer accuracy"
+data:
+  input_dir: null
+  target: "answer"
+  sample_rows: 200
+validation:
+  strategy: holdout
+  n_splits: 2
+  shuffle: true
+run:
+  seed: 42
+  deterministic: true
+  output_root: outputs
+model:
+  name: smoke
+  params: {}
+
