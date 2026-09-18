@@ -1,0 +1,10 @@
+domain:
+  task: mathematical_reasoning
+  input_modalities: [problem_text]
+  validation_group: problem_source_or_problem_id
+  primary_risk: solution_contamination_and_parser_errors
+  first_baseline: generate_parse_verify
+  inference:
+    record_prompt_version: true
+    record_sampling_seed: true
+    record_token_budget: true
