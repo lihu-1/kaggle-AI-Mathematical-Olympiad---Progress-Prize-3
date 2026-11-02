@@ -1,5 +1,7 @@
 # AIMO Progress Prize 3 推理方案
 
+> **当前状态：**本文介绍目前的最终推理方案；其余内容仍在制作与复盘中，后续将逐步补充。
+
 ## 任务与入口
 
 针对数学竞赛题生成整数答案。推理入口为 [aimo-3-gpt-oss-120b-with-tools.ipynb](aimo-3-gpt-oss-120b-with-tools.ipynb)，通过 Kaggle AIMO 3 inference server 接收题目并返回 id 与 answer。
