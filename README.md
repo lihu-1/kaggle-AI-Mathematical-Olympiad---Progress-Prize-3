@@ -1,5 +1,7 @@
 # AIMO Progress Prize 3
 
+> 推理方案与运行说明： [SOLUTION.md](SOLUTION.md)
+
 Private solution repository for `ai-mathematical-olympiad-progress-prize-3`.
 
 ## 1. Objective
